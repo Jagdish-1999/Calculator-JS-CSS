@@ -14,6 +14,11 @@ body  {
     overflow: hidden;
 }
 
+@media screen and (max-width:410px) {
+    body {
+        width: 500px;
+    }    
+}
 
 .container  {
     position: relative;
